@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn-brand{
+    background: white;
+    color: black;
+    padding: 20px 48px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.btn-links{
+    padding: 12px 36px;
+    background-color: rgba(0, 98, 185, 0.8);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+.btn-brand:hover{
+    background: rgba(255, 255, 255, 0.911);
+    color: black;
+    scale: 1.1;
+}
+
+.btn-links:hover{
+    color: white;
+    scale: 1.1;
+    background-color: rgba(0, 99, 185, 0.678);
+
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.spacing{
+    margin-bottom: 5rem;
+}
+
+.line{
+    height: 5px;
+    width: 60px;
+    background-color: rgba(0, 98, 185, 0.8);
+    border-radius: 100px;
+}
+
+P{
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.shadow{
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* NAVBAR */
+.navbar-nav .nav-link:hover{
+    color: rgba(0, 98, 185, 0.8);
+}
+
+.navbar-nav .nav-link.active{
+    color: rgba(0, 98, 185, 0.8);
+}
+
+nav img{
+    width: 60px;
+}
+
+
+/* HOME */
+#home{
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8) ), url(images/common-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#home p{
+    max-width: 800px;
+}
+
+/* PROJECT */
+#projects p{
+    max-width: 800px;
+}
+
+#projects .project-title p{
+    margin-bottom: 5rem;
+}
+
+/* ABOUT */
+#about p{
+    max-width: 800px;
+}
+
+#about .about-title p{
+    margin-bottom: 5rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skills__skill {
+    padding: 10px 18px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    font-size: 14px;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777; 
+}
+
+/* CONTACT */
+#contact{
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8) ), url(images/common-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#contact .line{
+    background-color: white;
+}
+
+#contact p{
+    max-width: 850px;
+}
+
+#contact .socials img{
+    width: 50px;
+    transition: all 0.4s ease;
+}
+
+#contact .socials img:hover{
+    opacity: 0.5;
+    scale: 1.1;
+}
+
+#contact .special{
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+footer a:hover{
+    color: rgba(0, 98, 185, 0.8);
+}
